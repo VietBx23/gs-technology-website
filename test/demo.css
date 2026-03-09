@@ -1,0 +1,51 @@
+.aboutUS{
+    position:relative;
+    overflow:hidden;
+}
+.aboutUS::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+
+    background-image:
+        /* 1. GIỮ NGUYÊN SVG LINE GỐC (Độ sáng 0.6, 0.4, 0.2) */
+        url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1000 1000' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1000 300C700 300 500 1000 200 1000' stroke='%23B0BFFF' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3Cpath d='M1000 340C700 340 540 1000 240 1000' stroke='%23B0BFFF' stroke-width='1.5' fill='none' opacity='0.4'/%3E%3Cpath d='M1000 380C700 380 580 1000 280 1000' stroke='%23B0BFFF' stroke-width='1.5' fill='none' opacity='0.2'/%3E%3C/svg%3E"),
+        
+        /* 2. CỤM 20 VÒNG TRÒN (Cách nhau 10px, lan rộng đến 200px+) */
+        radial-gradient(circle at 0% 0%, transparent 199px, rgba(100, 149, 237, 0.3) 200px, rgba(100, 149, 237, 0.3) 201px, transparent 202px),
+        radial-gradient(circle at 0% 0%, transparent 189px, rgba(100, 149, 237, 0.3) 190px, rgba(100, 149, 237, 0.3) 191px, transparent 192px),
+        radial-gradient(circle at 0% 0%, transparent 179px, rgba(100, 149, 237, 0.3) 180px, rgba(100, 149, 237, 0.3) 181px, transparent 182px),
+        radial-gradient(circle at 0% 0%, transparent 169px, rgba(100, 149, 237, 0.3) 170px, rgba(100, 149, 237, 0.3) 171px, transparent 172px),
+        radial-gradient(circle at 0% 0%, transparent 159px, rgba(100, 149, 237, 0.4) 160px, rgba(100, 149, 237, 0.4) 161px, transparent 162px),
+        radial-gradient(circle at 0% 0%, transparent 149px, rgba(100, 149, 237, 0.4) 150px, rgba(100, 149, 237, 0.4) 151px, transparent 152px),
+        radial-gradient(circle at 0% 0%, transparent 139px, rgba(100, 149, 237, 0.4) 140px, rgba(100, 149, 237, 0.4) 141px, transparent 142px),
+        radial-gradient(circle at 0% 0%, transparent 129px, rgba(100, 149, 237, 0.4) 130px, rgba(100, 149, 237, 0.4) 131px, transparent 132px),
+        radial-gradient(circle at 0% 0%, transparent 119px, rgba(100, 149, 237, 0.5) 120px, rgba(100, 149, 237, 0.5) 121px, transparent 122px),
+        radial-gradient(circle at 0% 0%, transparent 109px, rgba(100, 149, 237, 0.5) 110px, rgba(100, 149, 237, 0.5) 111px, transparent 112px),
+        radial-gradient(circle at 0% 0%, transparent 99px, rgba(100, 149, 237, 0.5) 100px, rgba(100, 149, 237, 0.5) 101px, transparent 102px),
+        radial-gradient(circle at 0% 0%, transparent 89px, rgba(100, 149, 237, 0.5) 90px, rgba(100, 149, 237, 0.5) 91px, transparent 92px),
+        radial-gradient(circle at 0% 0%, transparent 79px, rgba(100, 149, 237, 0.6) 80px, rgba(100, 149, 237, 0.6) 81px, transparent 82px),
+        radial-gradient(circle at 0% 0%, transparent 69px, rgba(100, 149, 237, 0.6) 70px, rgba(100, 149, 237, 0.6) 71px, transparent 72px),
+        radial-gradient(circle at 0% 0%, transparent 59px, rgba(100, 149, 237, 0.6) 60px, rgba(100, 149, 237, 0.6) 61px, transparent 62px),
+        radial-gradient(circle at 0% 0%, transparent 49px, rgba(100, 149, 237, 0.6) 50px, rgba(100, 149, 237, 0.6) 51px, transparent 52px),
+        radial-gradient(circle at 0% 0%, transparent 39px, rgba(100, 149, 237, 0.7) 40px, rgba(100, 149, 237, 0.7) 41px, transparent 42px),
+        radial-gradient(circle at 0% 0%, transparent 29px, rgba(100, 149, 237, 0.7) 30px, rgba(100, 149, 237, 0.7) 31px, transparent 32px);
+    background-repeat: no-repeat;
+
+    /* Nâng size background để các vòng tròn to không bị cắt mất */
+    background-size: 100% 100%, repeat(20, 600px 600px);back-to-top 
+    background-size: 100% 100%, 
+                    600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px,
+                    600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px, 600px 600px;
+
+    background-position: center, repeat(20, top left);
+    background-position: center, 
+                        top left, top left, top left, top left, top left, top left, top left, top left, top left, top left,
+                        top left, top left, top left, top left, top left, top left, top left, top left, top left, top left;
+
+    /* Giữ Mask rộng để không làm mờ các đường chéo của bạn */
+    -webkit-mask-image: linear-gradient(135deg, black 0%, black 80%, transparent 100%);
+    mask-image: linear-gradient(135deg, black 0%, black 80%, transparent 100%);
+}
