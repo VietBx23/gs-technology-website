@@ -1,234 +1,234 @@
-# 📖 Hướng Dẫn Cài Đặt Global Success - WordPress Website
+# 📖 Installation Guide - Global Success WordPress Website
 
-Hướng dẫn chi tiết từng bước để cài đặt và import nội dung website Global Success vào WordPress.
+Step-by-step guide to set up and import Global Success website content into WordPress.
 
-## ⚡ Phương Pháp Nhanh: Sử Dụng WP All In One Importer
+## ⚡ Quick Method: Using WP All In One Importer
 
-Đây là cách dễ nhất và nhanh nhất để import toàn bộ nội dung, thiết lập, và dữ liệu website.
+This is the easiest and fastest way to import all website content, settings, and data.
 
-### 📋 Yêu Cầu
+### 📋 Requirements
 
-- WordPress 5.0 hoặc cao hơn
-- PHP 7.2 hoặc cao hơn
-- Quyền quản trị WordPress (Admin access)
-- Kết nối internet ổn định
+- WordPress 5.0 or higher
+- PHP 7.2 or higher
+- WordPress Admin access
+- Stable internet connection
 
-### 🚀 Bước 1: Cài Đặt Plugin WP All In One Importer
+### 🚀 Step 1: Install WP All In One Importer Plugin
 
-1. **Đăng nhập vào WordPress Admin**
-   - Truy cập: `https://domain-cua-ban.com/wp-admin`
-   - Đăng nhập bằng tài khoản Admin
+1. **Log in to WordPress Admin**
+   - Access: `https://your-domain.com/wp-admin`
+   - Log in with your Admin account
 
-2. **Cài đặt plugin**
-   - Vào menu: **Plugins > Add New** (Plugins > Thêm Mới)
-   - Tìm kiếm: `All-in-One WP Migration` (đây là plugin phổ biến nhất)
-   - Nhấp vào **Install Now** (Cài Đặt)
-   - Nhấp vào **Activate** (Kích Hoạt)
+2. **Install the plugin**
+   - Go to menu: **Plugins > Add New**
+   - Search for: `All-in-One WP Migration` (most popular option)
+   - Click **Install Now**
+   - Click **Activate**
 
-   **Lưu ý:** Bạn cũng có thể sử dụng các plugin khác:
+   **Note:** You can also use other import plugins:
    - `ImportWP`
    - `Elementor Website Template Import`
    - `WordPress Importer`
 
-### 📥 Bước 2: Upload File Export
+### 📥 Step 2: Upload the Export File
 
-1. **Truy cập tính năng Import**
-   - Vào menu: **All-in-One WP Migration > Import** (hoặc Import trong plugin của bạn)
+1. **Access the Import feature**
+   - Go to menu: **All-in-One WP Migration > Import**
 
-2. **Tải lên file .wpress**
-   - Nhấp vào **Import from file** (Import từ file)
-   - Chọn file: `wordpress-test-20260307-102739-xjiekjxakewv.wpress`
-   - Hoặc kéo thả file vào khu vực tải lên
+2. **Upload the .wpress file**
+   - Click **Import from file**
+   - Select the file: `wordpress-test-20260307-102739-xjiekjxakewv.wpress`
+   - Or drag and drop the file into the upload area
 
-   **File nằm tại:** 
+   **File location:** 
    ```
    /wordpress-test-20260307-102739-xjiekjxakewv.wpress
    ```
 
-### ⚙️ Bước 3: Cố Gắng Import và Chờ
+### ⚙️ Step 3: Start Import and Wait
 
-1. **Bắt đầu quá trình import**
-   - Nhấp **Import**
-   - Hệ thống sẽ hiển thị thanh tiến trình
-   - **Đừng đóng tab trình duyệt** trong khi import
+1. **Begin the import process**
+   - Click **Import**
+   - The system will display a progress bar
+   - **Do not close the browser tab** during import
 
-2. **Thời gian chờ đợi**
-   - Thường mất từ 2-10 phút tùy vào kích thước tệp
-   - Tối đa có thể mất 30 phút với file lớn
+2. **Wait time**
+   - Usually takes 2-10 minutes depending on file size
+   - Can take up to 30 minutes for larger files
 
-3. **Hoàn tất**
-   - Hiển thị thông báo: "Import successfully completed" (Import hoàn tất thành công)
-   - Website sẽ tự động reload
+3. **Completion**
+   - Message displayed: "Import successfully completed"
+   - Website will automatically reload
 
-### ✅ Bước 4: Kiểm Tra và Tinh Chỉnh
+### ✅ Step 4: Verify and Fine-tune
 
-1. **Kiểm tra nội dung**
-   - Vào **Dashboard > Home** để xem trang chủ
-   - Kiểm tra tất cả các trang chính:
-     - Home (Trang chủ)
-     - About Us (Về chúng tôi)
-     - Services (Dịch vụ)
-     - News (Tin tức)
-     - Contact (Liên hệ)
+1. **Check content**
+   - Go to **Dashboard > Home** to view the homepage
+   - Check all main pages:
+     - Home
+     - About Us
+     - Services
+     - News
+     - Contact
 
-2. **Kiểm tra menu**
-   - Vào **Appearance > Menus** (Giao diện > Menu)
-   - Đảm bảo tất cả menu đã được kích hoạt
+2. **Verify menus**
+   - Go to **Appearance > Menus**
+   - Ensure all menus are activated
 
-3. **Cập nhật thông tin liên hệ**
-   - Vào **Customizer > Site Identity** (Tùy chỉnh > Danh tính trang web)
-   - Cập nhật:
-     - Tên website
+3. **Update contact information**
+   - Go to **Customizer > Site Identity**
+   - Update:
+     - Website name
      - Logo
-     - Tagline (Slogan)
+     - Tagline
 
-4. **Kiểm tra settings**
-   - Vào **Settings > Permalink** (Cài đặt > Mục Permalink)
-   - Chọn: **Post name** hoặc **Custom Structure: `/%postname%/`**
+4. **Check settings**
+   - Go to **Settings > Permalink**
+   - Select: **Post name** or **Custom Structure: `/%postname%/`**
 
 ---
 
-## 🛠️ Phương Pháp Thủ Công: Import Từng Phần
+## 🛠️ Manual Method: Import in Parts
 
-Nếu file export không hoạt động, bạn có thể import nội dung thủ công.
+If the export file doesn't work, you can import content manually.
 
-### 📝 Import Content (Nội Dung)
+### 📝 Import Content
 
-1. **Upload file XML**
-   - Vào **Tools > Import** (Công cụ > Import)
-   - Chọn **WordPress** importer
-   - Tải lên file `.xml` (nếu có)
-   - Chọn tác giả cho các bài viết
-   - Nhấp **Import**
+1. **Upload XML file**
+   - Go to **Tools > Import**
+   - Choose **WordPress** importer
+   - Upload the `.xml` file (if available)
+   - Choose author for posts
+   - Click **Import**
 
 ### 🎨 Import Widgets
 
-1. **Nhập Widgets**
-   - Vào **Appearance > Widgets** (Giao diện > Widgets)
-   - Thêm lại các widget vào các khu vực như:
-     - Footer Widget Area (Khu vực Widget Footer)
-     - Sidebar Widgets (Widget Thanh bên)
+1. **Add Widgets**
+   - Go to **Appearance > Widgets**
+   - Add widgets back to areas such as:
+     - Footer Widget Area
+     - Sidebar Widgets
      - Header Widgets
 
-### 🖼️ Import Hình Ảnh Thủ Công
+### 🖼️ Manual Image Import
 
 1. **Upload Images**
-   - Vào **Media > Add New** (Thư viện > Thêm mới)
-   - Upload tất cả hình ảnh
+   - Go to **Media > Add New**
+   - Upload all images
 
-2. **Cập nhật Featured Image cho Page/Post**
-   - Chỉnh sửa từng page/post
-   - Đặt featured image từ thư viện media
+2. **Update Featured Image for Pages/Posts**
+   - Edit each page/post
+   - Set featured image from media library
 
 ---
 
-## 🔧 Khắc Phục Sự Cố
+## 🔧 Troubleshooting
 
-### ❌ Lỗi: "Import Failed" (Import thất bại)
+### ❌ Error: "Import Failed"
 
-**Giải pháp:**
-1. Kiểm tra kích thước file
-   - Plugin All-in-One WP Migration có giới hạn 512MB trong phiên bản miễn phí
-   - Cho phép tải lên thêm bằng cách thêm code:
+**Solutions:**
+1. Check file size
+   - All-in-One WP Migration free version has a 512MB limit
+   - Allow larger uploads by adding code:
    ```php
    define( 'AI1WM_MAX_FILE_SIZE', 2147483648 ); // 2GB
    ```
 
-2. Tăng giới hạn PHP
-   - Thêm vào file `wp-config.php`:
+2. Increase PHP limits
+   - Add to `wp-config.php`:
    ```php
    define( 'WP_MEMORY_LIMIT', '256M' );
    define( 'WP_MAX_MEMORY_LIMIT', '512M' );
    ```
 
-3. Tăng timeout
-   - Yêu cầu host tăng `max_execution_time` lên 300 giây
+3. Increase timeout
+   - Ask your host to increase `max_execution_time` to 300 seconds
 
-### ❌ Lỗi: "File too large" (File quá lớn)
+### ❌ Error: "File too large"
 
-**Giải pháp:**
-1. Nén file `.wpress` nếu có thể
-2. Chia file thành các phần nhỏ hơn
-3. Sử dụng FTP để upload file trực tiếp vào thư mục
+**Solutions:**
+1. Compress the `.wpress` file if possible
+2. Split file into smaller parts
+3. Use FTP to upload file directly to folder
 
-### ❌ Lỗi: Hình ảnh không hiển thị sau import
+### ❌ Error: Images not displaying after import
 
-**Giải pháp:**
-1. Vào **Tools > Site Health**
-2. Kiểm tra REST API đang hoạt động
-3. Cập nhật URL trong **Settings > General**
+**Solutions:**
+1. Go to **Tools > Site Health**
+2. Verify REST API is working
+3. Update URL in **Settings > General**
 
-### ❌ Plugin không hoạt động sau import
+### ❌ Plugins not working after import
 
-**Giải pháp:**
-1. Vào **Plugins** và kích hoạt lại tất cả plugin
-2. Nếu cần, cần cài đặt plugin lại
-3. Kiểm tra xung đột plugin
-
----
-
-## 📊 Danh Sách Nội Dung Được Import
-
-Khi import file `.wpress`, bạn sẽ nhận được:
-
-### ✅ Được Import
-- ✓ Tất cả Pages (Trang)
-- ✓ Tất cả Posts (Bài viết)
-- ✓ Tất cả Categories & Tags (Danh mục & Thẻ)
-- ✓ Menu Structures (Cấu trúc Menu)
-- ✓ Widgets & Sidebar (Widgets & Thanh bên)
-- ✓ Theme Settings (Cài đặt Chủ đề)
-- ✓ Hình ảnh và Media (Images & Media)
-- ✓ User Roles & Permissions (Vai trò & Quyền)
-- ✓ Custom Post Types (Loại bài viết tùy chỉnh)
-
-### ⚠️ Có Thể Cần Cấu Hình Lại
-- ⚠ Plugin Settings (Cài đặt Plugin) - cần cấu hình lại mật khẩu, API key
-- ⚠ Email Settings (Cài đặt Email) - cần cấu hình lại SMTP
-- ⚠ Domain URLs (URL Tên miền) - nếu thay đổi domain
-- ⚠ Third-party Integrations (Tích hợp bên thứ ba)
+**Solutions:**
+1. Go to **Plugins** and reactivate all plugins
+2. If needed, reinstall plugins
+3. Check for plugin conflicts
 
 ---
 
-## 🔐 Bảo Mật Sau Import
+## 📊 Import Content List
 
-1. **Đổi mật khẩu Admin**
-   - Vào **Users > Edit Profile** hoặc **Account Settings**
-   - Đổi mật khẩu thành mật khẩu mạnh mới
+When importing the `.wpress` file, you will receive:
 
-2. **Xóa User mặc định**
-   - Xóa các user không cần thiết
+### ✅ Included in Import
+- ✓ All Pages
+- ✓ All Posts
+- ✓ All Categories & Tags
+- ✓ Menu Structures
+- ✓ Widgets & Sidebar
+- ✓ Theme Settings
+- ✓ Images and Media
+- ✓ User Roles & Permissions
+- ✓ Custom Post Types
 
-3. **Cập nhật Permalink**
-   - Đặt structure SEO-friendly
-
-4. **Bật SSL**
-   - Đảm bảo website sử dụng HTTPS
-
-5. **Cài đặt Backup Plugin**
-   - Cài đặt plugin như BackWPup hoặc UpdraftPlus
+### ⚠️ May Need Reconfiguration
+- ⚠ Plugin Settings - may need to reconfigure passwords, API keys
+- ⚠ Email Settings - may need to reconfigure SMTP
+- ⚠ Domain URLs - if changing domain
+- ⚠ Third-party Integrations
 
 ---
 
-## 📞 Yêu Cầu Hỗ Trợ
+## 🔐 Security After Import
 
-Nếu gặp vấn đề:
+1. **Change Admin Password**
+   - Go to **Users > Edit Profile** or **Account Settings**
+   - Change to a strong new password
 
-1. **Kiểm tra các lỗi**
-   - Vào **Tools > Site Health** (Công cụ > Tình trạng Trang web)
+2. **Delete Default Users**
+   - Remove unnecessary user accounts
 
-2. **Liên hệ với Host/Nhà cung cấp**
-   - Yêu cầu tăng PHP memory limit
-   - Yêu cầu tăng upload size
-   - Yêu cầu tăng max execution time
+3. **Update Permalink Structure**
+   - Set SEO-friendly structure
 
-3. **Liên hệ Support**
+4. **Enable SSL**
+   - Ensure website uses HTTPS
+
+5. **Install Backup Plugin**
+   - Install plugins like BackWPup or UpdraftPlus
+
+---
+
+## 📞 Support Requests
+
+If you encounter issues:
+
+1. **Check for errors**
+   - Go to **Tools > Site Health**
+
+2. **Contact Your Host/Provider**
+   - Request to increase PHP memory limit
+   - Request to increase upload size
+   - Request to increase max execution time
+
+3. **Contact Global Success Support**
    - Email: globalsuccess@gmail.com
    - Phone: (+84) 943 321 441
 
 ---
 
-## 📱 Tài Nguyên Hữu Ích
+## 📱 Useful Resources
 
 - [All-in-One WP Migration - Documentation](https://help.servmask.com/)
 - [WordPress Import Guide](https://wordpress.org/support/article/importing-content/)
@@ -236,6 +236,6 @@ Nếu gặp vấn đề:
 
 ---
 
-**Chúc bạn cài đặt thành công!** 🎉
+**Good luck with your installation!** 🎉
 
-*Cập nhật lần cuối: 9 tháng 3 năm 2026*
+*Last Updated: March 9, 2026*
