@@ -1,151 +1,111 @@
-# Global Success - Marketing Agency Website
+# Global Success — Marketing Agency Website
 
-**GLOBAL SUCCESS is a marketing agency delivering strategic and performance-driven solutions for growing businesses.**
+**GLOBAL SUCCESS** là agency marketing chiến lược, cung cấp các giải pháp hiệu suất cao cho doanh nghiệp đang phát triển tại nhiều quốc gia.
 
-A modern, fully-featured WordPress website showcasing our marketing expertise across multiple countries with comprehensive service offerings and proven results.
+---
 
-## 🎯 About Global Success
+## 🏠 Giao Diện Website
 
-We are a strategic marketing agency with:
-- **5+ Countries** - Operating across multiple regions
-- **4+ Services** - Comprehensive marketing solutions
-- **8+ Clients** - Working with leading businesses
-- **10,000+ Reviews** - Trusted by thousands of satisfied customers
+### Trang Chủ
+![Home](images/Home.png)
 
-## 🚀 Our Services
+### Giới Thiệu
+![About Us](images/About%20Us.png)
 
-### SEO
-Improving website rankings on Google, increase organic traffic with:
-- SEO On-page optimization
-- SEO Off-page optimization
-- Complete SEO strategy
+### Dịch Vụ
+![Services](images/Services.png)
 
-### Advertising
-Executing, measuring, and optimizing ads on:
-- Google Ads
-- Facebook Ads
-- Instagram Advertising
-- YouTube Ads
-- Multi-platform campaigns
+### Tin Tức
+![News](images/News.png)
 
-### Content Strategy
-Planning, creating, distributing and managing:
-- Blog content
-- Social media content
-- Video content
-- Multi-channel distribution
+### Tuyển Dụng
+![Careers](images/Careers.png)
 
-### Web Development
-Design and build:
-- SEO-optimized websites
-- Optimized UX/UI design
-- High-performance web solutions
-- Responsive design across all devices
+### Liên Hệ
+![Contact](images/Contact.png)
 
-## 📋 Technical Stack
+---
 
-- **CMS:** WordPress 5.0+
-- **Theme:** Flatsome
-- **Server:** PHP 7.2+
-- **Database:** MySQL/MariaDB
+## 🎯 Về Global Success
+
+| Chỉ số | Giá trị |
+|--------|---------|
+| Quốc gia hoạt động | 5+ |
+| Dịch vụ cung cấp | 4+ |
+| Khách hàng | 8+ |
+| Đánh giá | 10,000+ |
+
+---
+
+## 🚀 Dịch Vụ
+
+- **SEO** — Tối ưu on-page, off-page, chiến lược SEO toàn diện
+- **Quảng cáo** — Google Ads, Facebook Ads, Instagram, YouTube
+- **Content Strategy** — Blog, mạng xã hội, video, đa kênh
+- **Web Development** — Thiết kế UX/UI, tối ưu hiệu suất, responsive
+
+---
+
+## 📋 Tech Stack
+
+- **CMS:** WordPress 6.4+
+- **Theme:** Flatsome v3.20.2
+- **PHP:** 7.4+
+- **WooCommerce:** 8.3+
 - **Frontend:** HTML5, CSS3, JavaScript
-- **Plugins:** Contact forms, SEO optimization, analytics
 
-## 🛠️ Setup Instructions
+---
 
-1. **Prerequisites**
-   - WordPress installation on a compatible host
-   - Flatsome theme installed and activated
-   - Required plugins configured
+## 🛠️ Cài Đặt
 
-2. **Website Configuration**
-   - Configure site settings in WordPress admin
-   - Set up navigation menus and pages
-   - Configure contact forms
-   - Add company information and social media links
+Xem hướng dẫn chi tiết tại **[INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md)**
 
-3. **Content Management**
-   - Add services and case studies
-   - Manage news and blog posts
-   - Update team information
-   - Keep contact details current
+1. Cài WordPress và kích hoạt theme Flatsome
+2. Import dữ liệu bằng WP All In One Importer
+3. Cấu hình menu, trang, form liên hệ
+4. Cập nhật thông tin công ty và mạng xã hội
 
-## 📦 Project Structure
+---
+
+## 📦 Cấu Trúc Thư Mục
 
 ```
-├── assets/              # Theme and custom assets
-│   ├── css/            # Stylesheets
-│   ├── js/             # JavaScript files
-│   ├── img/            # Images and logos
-│   ├── font/           # Custom fonts
-│   └── libs/           # Third-party libraries
-├── inc/                # Core functionality
-│   ├── admin/          # Admin customizations
-│   ├── blocks/         # Gutenberg blocks for services
-│   ├── classes/        # Custom PHP classes
-│   ├── functions/      # Theme functions
-│   ├── helpers/        # Helper utilities
-│   ├── widgets/        # Custom widgets
-│   └── integrations/   # Third-party integrations
-├── template-parts/     # Reusable page components
-├── languages/          # Translation files (30+ languages)
-├── page-*.php          # Service and custom pages
-└── functions.php       # Main configuration file
+├── assets/              # CSS, JS, hình ảnh, font
+├── inc/                 # Core PHP: admin, blocks, classes, widgets
+├── template-parts/      # Components tái sử dụng
+├── languages/           # File dịch (30+ ngôn ngữ)
+├── images/              # Ảnh giao diện demo
+├── page-*.php           # Các page template
+└── functions.php        # Cấu hình chính
 ```
 
-## 📄 Website Pages
+---
 
-### Main Pages
-- **Home** - Showcase agency expertise and services
-- **About Us** - Company overview and achievements
-- **Services** - Detailed service offerings (SEO, Advertising, Content, Web Dev)
-- **News** - Blog and latest company updates
-- **Careers** - Job opportunities and recruitment
-- **Contact Us** - Contact form and location information
+## 📄 Các Trang Chính
 
-### Key Sections
-- **Service Details** - In-depth service descriptions
-- **Client Testimonials** - Success stories and reviews
-- **Contact Form** - Multi-field form for inquiries
-- **Social Media Integration** - Links to all social channels
+| Trang | Mô tả |
+|-------|-------|
+| Home | Giới thiệu agency và dịch vụ |
+| About Us | Tổng quan công ty và thành tích |
+| Services | Chi tiết các dịch vụ |
+| News | Blog và cập nhật mới nhất |
+| Careers | Cơ hội việc làm |
+| Contact | Form liên hệ và địa chỉ |
 
-## 📄 Important Files
+---
 
-- **functions.php** - Core theme functions and hooks
-- **style.css** - Main stylesheet
-- **rtl.css** - Right-to-left language support
-- **theme.json** - Theme settings and configuration
-- **header.php** - Header template
-- **footer.php** - Footer template
-- **wpml-config.xml** - WPML configuration for translations
+## � Liên Hệ
+
+**Địa chỉ:** 34 Pasteur, Quận 3, TP. Hồ Chí Minh  
+**Email:** globalsuccess@gmail.com  
+**Điện thoại:** (+84) 943 321 441
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/globalsuccess)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/company/globalsuccess)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/globalsuccess)
+
+---
 
 ## 📝 License
 
-This theme is licensed under the GPL v2 or later. See `license.txt` for full details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 📧 Support
-
-For support, documentation, and inquiries:
-- Check the [WordPress Theme Directory](https://wordpress.org/themes/)
-- Visit the theme website
-- Contact the development team
-## 📚 Hướng Dẫn Cài Đặt
-
-Để cài đặt website, vui lòng xem:
-- **[Installation Guide](./INSTALLATION_GUIDE.md)** - Hướng dẫn chi tiết từng bước sử dụng WP All In One Importer
-## � Contact & Location
-
-**Address:** 34 Pauster, District 3, Ho Chi Minh City  
-**Email:** globalsuccess@gmail.com  
-**Phone:** (+84) 943 321 441
-
-## 📱 Follow Us
-
-- [Facebook](https://facebook.com/globalsuccess)
-- [LinkedIn](https://linkedin.com/company/globalsuccess)
-- [Instagram](https://instagram.com/globalsuccess)
-- [Telegram](https://telegram.com/globalsuccess)
+Theme được cấp phép theo GPL v2 hoặc mới hơn. Xem `license.txt` để biết chi tiết.
